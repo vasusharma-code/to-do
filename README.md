@@ -73,20 +73,7 @@ This app fetches **real-time weather data** from OpenWeather API for high-priori
 ## 🎨 UI/UX with Tailwind CSS
 The app is designed with **Tailwind CSS** for a sleek, modern, and fully responsive layout.
 
----
-## 🚀 Deployment (Vercel/Netlify)
-To deploy the app:
-1. **Build the project**:
-```sh
-$ npm run build  # OR yarn build
-```
-2. **Deploy on Vercel**:
-```sh
-$ npm i -g vercel
-$ vercel
-```
 
-OR deploy on **Netlify** by linking the repository.
 
 ---
 ## 🏆 Evaluation Criteria
@@ -99,4 +86,6 @@ OR deploy on **Netlify** by linking the repository.
 ---
 ## 📞 Contact
 For any queries or suggestions, feel free to reach out! 😊
+
+
 
