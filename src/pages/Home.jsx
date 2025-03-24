@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     // Redirect to login if not authenticated
-    if (!user) navigate("/login");
+    if (!user) navigate("/");
   }, [user, navigate]);
 
   // Apply dark mode on the document root
@@ -27,14 +27,14 @@ const Home = () => {
 
   const handleLogout = () => {
     dispatch(logout());
-    navigate("/login");
+    navigate("/");
   };
 
   if (!user) return null;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 p-4 transition-colors">
-      <div className="w-full max-w-lg bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 transition-colors">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-zinc-700 p-4 transition-colors">
+      <div className="w-full max-w-lg bg-white dark:bg-zinc-700 shadow-lg rounded-lg p-6 transition-colors">
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-xl font-bold dark:text-gray-200">Hello, {user.name}!</h1>
           <div className="flex gap-2">

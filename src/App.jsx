@@ -9,8 +9,8 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
     </Provider>

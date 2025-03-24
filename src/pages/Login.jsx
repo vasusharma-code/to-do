@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = () => {
     if (username.trim() !== "") {
       dispatch(login({ name: username }));
-      navigate("/");
+      navigate("/home");
     }
   };
 
